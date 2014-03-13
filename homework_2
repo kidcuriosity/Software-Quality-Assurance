@@ -1,11 +1,28 @@
 Chapter 4
-Defect handling is an integral part of QA activities, and different QA alternatives and related activities can be viewed as a concerted effort to ensure software quality. This section illustrates about the aim of verification and validation activities. Validaton checks the conformance to quality expectations of customers and users in the form of whether the expected functions or features are present or not. Verification checks the conformance of software product implementation against its specifications to see if it is implemented correctly. In addition, from the V-model, I learn that verification and validation activities are distributed in different processes differently and there is no explicitly boundary between verification and validation.
+Defect handling is an integral part of QA activities, and different QA alternatives 
+and related activities can be viewed as a concerted effort to ensure software quality. 
+This section illustrates about the aim of verification and validation activities. 
+Validaton checks the conformance to quality expectations of customers and users in the 
+form of whether the expected functions or features are present or not. Verification 
+checks the conformance of software product implementation against its specifications 
+to see if it is implemented correctly. In addition, from the V-model, I learn that 
+verification and validation activities are distributed in different processes 
+differently and there is no explicitly boundary between verification and validation.
 
 Chapter 5
-Facing different quality expectations from customers, we need to move beyond just performing QA activities toward quality engineering. In an engineering problem, we try to meet or exceed these quality expectations through the selection and execution of appropriate QA activities while minimizing the cost and other project risks under the project constraints.
+Facing different quality expectations from customers, we need to move beyond just 
+performing QA activities toward quality engineering. In an engineering problem, we try to 
+meet or exceed these quality expectations through the selection and execution of 
+appropriate QA activities while minimizing the cost and other project risks under the project constraints.
 
-In the 5.1 part, it introduces three major groups of activities in the quality engineering process: pre-QA activities, in-QA activities, and post-QA activities. And what’s more, There are two kinds of feedback in this quality engineering process, both the short term direct feedback to the QA activities and the long-term feedback to the overall quality engineering process.
+In the 5.1 part, it introduces three major groups of activities in the quality engineering 
+process: pre-QA activities, in-QA activities, and post-QA activities. And what’s more, there 
+are two kinds of feedback in this quality engineering process, both the short term direct 
+feedback to the QA activities and the long-term feedback to the overall quality engineering process.
 
-QIP forms a feedback and improvement loop. Our approach to quality engineering can be considered as an adaptation of QIP to assure and measure quality, and to manage quality expectations of target customers.
+QIP forms a feedback and improvement loop. Our approach to quality engineering can be 
+considered as an adaptation of QIP to assure and measure quality, and to manage quality expectations of target customers.
 
-Specific quality expectations by the customers require us to identify relevant quality views and attributes prior to setting appropriate quality goals. Another practical concern with the proper setting of quality goals is the cost associated with different levels of quality.
+Specific quality expectations by the customers require us to identify relevant quality 
+views and attributes prior to setting appropriate quality goals. Another practical concern 
+with the proper setting of quality goals is the cost associated with different levels of quality.
