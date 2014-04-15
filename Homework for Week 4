@@ -1,3 +1,8 @@
+The basic concepts of CFT
+
 Control flow testing (CFT) is a direct and natural extension to coverage-based FSM testing
 with a specialized type of FSMs called control flow graphs (CFGs) and with a focus on
 complete execution paths instead of on state or link coverage.
+
+The basic idea for control flow testing (CFT) is to select paths as test cases and sensitize
+them by assigning corresponding input values.
