@@ -1,0 +1,3 @@
+Control flow testing (CFT) is a direct and natural extension to coverage-based FSM testing
+with a specialized type of FSMs called control flow graphs (CFGs) and with a focus on
+complete execution paths instead of on state or link coverage.
