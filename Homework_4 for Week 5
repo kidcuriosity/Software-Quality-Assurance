@@ -1,0 +1,24 @@
+My understanding of formal methods in general and model checking in particular
+
+Formal methods provide a way to eliminate certain error sources and to verify the absence
+of related faults. Formal development methods, or formal methods in short, include formal
+specification and formal verification.
+
+Formal specification is concerned with producing an unambiguous set of product specifications 
+so that customer requirements, as well as environmental constraints and design intentions, are 
+correctly reflected, thus reducing the chances of accidental fault injections. Formal verification 
+checks the conformance of software design or code against these formal specifications, thus ensuring 
+that the software is fault-free with respect to its formal specifications.
+
+Model checking is such an approach that automatically or algorithmically checks
+certain properties for some software systems.
+
+A software system is modeled as a finite-state machine (FSM), with some property of
+interest expressed as a suitable formula, or a proposition, defined with respect to the
+FSM.
+
+The model checker is a software that runs an algorithm to check the validity of the
+proposition.
+
+Model checking combines algorithmic checking of propositions through execution with formal 
+assertions stated as the propositions with respect to software systems modeled as finite-state machines.
