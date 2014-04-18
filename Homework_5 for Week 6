@@ -1,1 +1,44 @@
-Testing vs Defect Prevention
+QA Alternative        Object
+testing               (executable) code
+defect prevention     (implementation activities)
+inspection            design, code, and other software artifacts
+formal verification   desigdcode with formal specification
+fault tolerance       operational software system
+failure containment   system with potential accidents
+
+
+QA Alternative        Development ActivityPhase
+testing testing       phase and after
+defect prevention     implementation (req/spec/desigdcoding)
+inspection            all
+formal verification   desigdcoding
+fault tolerance       in-field operation
+failure containment   in-field operation
+
+
+QA Alternative        Expertise Level             Background Knowledge
+testing               low - high
+defect                prevention medium - high
+inspection            low - medium
+formal                verification high           formal training
+fault tolerance       high                        dynamic systems
+failure containment   high                        safety, embedded systems
+
+
+QA Alternative        Problem Types
+testing               dynamic failures & related faults
+defect prevention     systematic errors or conceptual mistakes
+inspection            static & localized faults
+formal verification   logical faults, indirectly
+fault tolerance       operational failures in small areas
+failure containment   accidents and related hazards
+
+
+QA Alternative        cost
+testing               medium (low - high)
+defect                prevention low
+inspection            low - medium
+formal verification   high
+fault tolerance       high
+failure containment   highest
+
