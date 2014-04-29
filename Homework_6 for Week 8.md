@@ -13,7 +13,6 @@ for testing team members. Information derived from software testing may be used
 to correct the process by which software is developed.</span></p>
 
 <p><span lang="EN-US">&nbsp;</span></p>
-
 <p><span lang="EN-US">Every software product has a target
 audience. For example, the audience for video game software is completely
 different from banking software. Therefore, when an organization develops or
@@ -23,7 +22,6 @@ purchasers and other stakeholders. Software testing is the process of
 attempting to make this assessment.</span></p>
 
 <p><span lang="EN-US">&nbsp;</span></p>
-
 <span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
 &quot;Calibri&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
 宋体;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;
