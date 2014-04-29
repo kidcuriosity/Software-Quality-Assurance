@@ -1,0 +1,287 @@
+<b><span style="font-size: 24px;">How to ensure the quality of a software system</span></b><!--[if gte mso 9]><xml>
+ <w:worddocument>
+  <w:view>Normal</w:view>
+  <w:zoom>0</w:zoom>
+  <w:trackmoves />
+  <w:trackformatting />
+  <w:punctuationkerning />
+  <w:drawinggridverticalspacing>7.8 磅</w:drawinggridverticalspacing>
+  <w:displayhorizontaldrawinggridevery>0</w:displayhorizontaldrawinggridevery>
+  <w:displayverticaldrawinggridevery>2</w:displayverticaldrawinggridevery>
+  <w:validateagainstschemas />
+  <w:saveifxmlinvalid>false</w:saveifxmlinvalid>
+  <w:ignoremixedcontent>false</w:ignoremixedcontent>
+  <w:alwaysshowplaceholdertext>false</w:alwaysshowplaceholdertext>
+  <w:donotpromoteqf />
+  <w:lidthemeother>EN-US</w:lidthemeother>
+  <w:lidthemeasian>ZH-CN</w:lidthemeasian>
+  <w:lidthemecomplexscript>X-NONE</w:lidthemecomplexscript>
+  <w:compatibility>
+   <w:spaceforul />
+   <w:balancesinglebytedoublebytewidth />
+   <w:donotleavebackslashalone />
+   <w:ultrailspace />
+   <w:donotexpandshiftreturn />
+   <w:adjustlineheightintable />
+   <w:breakwrappedtables />
+   <w:snaptogridincell />
+   <w:wraptextwithpunct />
+   <w:useasianbreakrules />
+   <w:dontgrowautofit />
+   <w:splitpgbreakandparamark />
+   <w:dontvertaligncellwithsp />
+   <w:dontbreakconstrainedforcedtables />
+   <w:dontvertalignintxbx />
+   <w:word11kerningpairs />
+   <w:cachedcolbalance />
+   <w:usefelayout />
+  </w:compatibility>
+  <w:browserlevel>MicrosoftInternetExplorer4</w:browserlevel>
+  <m:mathpr>
+   <m:mathfont m:val="Cambria Math" />
+   <m:brkbin m:val="before" />
+   <m:brkbinsub m:val="--" />
+   <m:smallfrac m:val="off" />
+   <m:dispdef />
+   <m:lmargin m:val="0" />
+   <m:rmargin m:val="0" />
+   <m:defjc m:val="centerGroup" />
+   <m:wrapindent m:val="1440" />
+   <m:intlim m:val="subSup" />
+   <m:narylim m:val="undOvr" />
+  </m:mathpr></w:worddocument>
+</xml><![endif]-->
+
+<p class="MsoNormal"><span lang="EN-US">A primary purpose of testing is to detect
+software failures so that defects may be discovered and corrected. Testing
+cannot establish that a product functions properly under all conditions but can
+only establish that it does not function properly under specific conditions.
+The scope of software testing often includes examination of code as well as
+execution of that code in various environments and conditions as well as
+examining the aspects of code: does it do what it is supposed to do and do what
+it needs to do. In the current culture of software development, a testing
+organization may be separate from the development team. There are various roles
+for testing team members. Information derived from software testing may be used
+to correct the process by which software is developed.</span></p>
+
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="EN-US">Every software product has a target
+audience. For example, the audience for video game software is completely
+different from banking software. Therefore, when an organization develops or
+otherwise invests in a software product, it can assess whether the software
+product will be acceptable to its end users, its target audience, its
+purchasers and other stakeholders. Software testing is the process of
+attempting to make this assessment.</span></p>
+
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+
+<span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:
+&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+宋体;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA" lang="EN-US">To
+ensure complete coverage of software testing, testing team must be careful
+about certain activities that are part of the process. If the software testing
+is not complete as per the business and customer requirements, it could have a
+severe adverse effect during or post implementation of the software at the
+customer site. The more is the coverage, the less are the chances of any bugs
+passing to the implementation phase. So, to ensure the complete coverage of
+software product and to find the maximum possible bugs or defects, testers have
+to ensure following steps:<br />
+1. Ensure that the documents defining the business and customer requirements
+are complete and correct. How to do that can be taken up in a separate topic.<br />
+2. Ensure that the development team has clearly understood the documents.<br />
+3. Ensure that testers themselves have thoroughly read and understood the
+documents.<br />
+4. Prepare a clear cut scope of testing based on product documents.<br />
+5. The strategy and Test Planning is as per system requirements.<br />
+6. Decide test methodology and test tools (if any), and test schedule.<br />
+7. Prepare Test Cases based on business rules and customer requirements.<br />
+8. Ensure that the test cases are extensive and sensible to cover the complete
+requirements testing.<br />
+9. Ensure that during testing no changes in the test environment (coding etc.)
+is done by development team.<br />
+10. Ensure that development team representatives (1 or all) are present during
+the complete testing.<br />
+11. Create Test Scenarios based on test cases.<br />
+12. Observe the result of each test case and record it accordingly.<br />
+13. Prepare a comprehensive and detailed test report explaining each of the
+test case, scenario and its result elaborately.<br />
+14. Ensure that all bugs reported should make sense (no duplication/overlapping
+of scenarios and no repetition of bugs reported)<br />
+15. Ensure that the complete testing finishes as per schedule.<br />
+16. The final report submitted should clearly state the areas not covered under
+testing, reason for the same and its impact on the product.<br />
+17. Simulate any bugs that are not clear to development team.<br />
+18. Ensure that you have a tentative plan from the development team when they
+are fixing all bugs and submitting it back to testing team.<br />
+19. Verify all bugs fixed and ensure that the development team is sitting with
+testers during verification.<br />
+20. Prepare the final report and submit back to Development team, giving the
+status of each bug fixed, as verified as fixed or not fixed. Report any new
+bugs arrived in the software while fixing these bugs.</span><!--[if gte mso 9]><xml>
+ <w:latentstyles deflockedstate="false" defunhidewhenused="true" defsemihidden="true" defqformat="false" defpriority="99" latentstylecount="267">
+  <w:lsdexception locked="false" priority="0" semihidden="false" unhidewhenused="false" qformat="true" name="Normal" />
+  <w:lsdexception locked="false" priority="9" semihidden="false" unhidewhenused="false" qformat="true" name="heading 1" />
+  <w:lsdexception locked="false" priority="9" qformat="true" name="heading 2" />
+  <w:lsdexception locked="false" priority="9" qformat="true" name="heading 3" />
+  <w:lsdexception locked="false" priority="9" qformat="true" name="heading 4" />
+  <w:lsdexception locked="false" priority="9" qformat="true" name="heading 5" />
+  <w:lsdexception locked="false" priority="9" qformat="true" name="heading 6" />
+  <w:lsdexception locked="false" priority="9" qformat="true" name="heading 7" />
+  <w:lsdexception locked="false" priority="9" qformat="true" name="heading 8" />
+  <w:lsdexception locked="false" priority="9" qformat="true" name="heading 9" />
+  <w:lsdexception locked="false" priority="39" name="toc 1" />
+  <w:lsdexception locked="false" priority="39" name="toc 2" />
+  <w:lsdexception locked="false" priority="39" name="toc 3" />
+  <w:lsdexception locked="false" priority="39" name="toc 4" />
+  <w:lsdexception locked="false" priority="39" name="toc 5" />
+  <w:lsdexception locked="false" priority="39" name="toc 6" />
+  <w:lsdexception locked="false" priority="39" name="toc 7" />
+  <w:lsdexception locked="false" priority="39" name="toc 8" />
+  <w:lsdexception locked="false" priority="39" name="toc 9" />
+  <w:lsdexception locked="false" priority="35" qformat="true" name="caption" />
+  <w:lsdexception locked="false" priority="10" semihidden="false" unhidewhenused="false" qformat="true" name="Title" />
+  <w:lsdexception locked="false" priority="1" name="Default Paragraph Font" />
+  <w:lsdexception locked="false" priority="11" semihidden="false" unhidewhenused="false" qformat="true" name="Subtitle" />
+  <w:lsdexception locked="false" priority="22" semihidden="false" unhidewhenused="false" qformat="true" name="Strong" />
+  <w:lsdexception locked="false" priority="20" semihidden="false" unhidewhenused="false" qformat="true" name="Emphasis" />
+  <w:lsdexception locked="false" priority="59" semihidden="false" unhidewhenused="false" name="Table Grid" />
+  <w:lsdexception locked="false" unhidewhenused="false" name="Placeholder Text" />
+  <w:lsdexception locked="false" priority="1" semihidden="false" unhidewhenused="false" qformat="true" name="No Spacing" />
+  <w:lsdexception locked="false" priority="60" semihidden="false" unhidewhenused="false" name="Light Shading" />
+  <w:lsdexception locked="false" priority="61" semihidden="false" unhidewhenused="false" name="Light List" />
+  <w:lsdexception locked="false" priority="62" semihidden="false" unhidewhenused="false" name="Light Grid" />
+  <w:lsdexception locked="false" priority="63" semihidden="false" unhidewhenused="false" name="Medium Shading 1" />
+  <w:lsdexception locked="false" priority="64" semihidden="false" unhidewhenused="false" name="Medium Shading 2" />
+  <w:lsdexception locked="false" priority="65" semihidden="false" unhidewhenused="false" name="Medium List 1" />
+  <w:lsdexception locked="false" priority="66" semihidden="false" unhidewhenused="false" name="Medium List 2" />
+  <w:lsdexception locked="false" priority="67" semihidden="false" unhidewhenused="false" name="Medium Grid 1" />
+  <w:lsdexception locked="false" priority="68" semihidden="false" unhidewhenused="false" name="Medium Grid 2" />
+  <w:lsdexception locked="false" priority="69" semihidden="false" unhidewhenused="false" name="Medium Grid 3" />
+  <w:lsdexception locked="false" priority="70" semihidden="false" unhidewhenused="false" name="Dark List" />
+  <w:lsdexception locked="false" priority="71" semihidden="false" unhidewhenused="false" name="Colorful Shading" />
+  <w:lsdexception locked="false" priority="72" semihidden="false" unhidewhenused="false" name="Colorful List" />
+  <w:lsdexception locked="false" priority="73" semihidden="false" unhidewhenused="false" name="Colorful Grid" />
+  <w:lsdexception locked="false" priority="60" semihidden="false" unhidewhenused="false" name="Light Shading Accent 1" />
+  <w:lsdexception locked="false" priority="61" semihidden="false" unhidewhenused="false" name="Light List Accent 1" />
+  <w:lsdexception locked="false" priority="62" semihidden="false" unhidewhenused="false" name="Light Grid Accent 1" />
+  <w:lsdexception locked="false" priority="63" semihidden="false" unhidewhenused="false" name="Medium Shading 1 Accent 1" />
+  <w:lsdexception locked="false" priority="64" semihidden="false" unhidewhenused="false" name="Medium Shading 2 Accent 1" />
+  <w:lsdexception locked="false" priority="65" semihidden="false" unhidewhenused="false" name="Medium List 1 Accent 1" />
+  <w:lsdexception locked="false" unhidewhenused="false" name="Revision" />
+  <w:lsdexception locked="false" priority="34" semihidden="false" unhidewhenused="false" qformat="true" name="List Paragraph" />
+  <w:lsdexception locked="false" priority="29" semihidden="false" unhidewhenused="false" qformat="true" name="Quote" />
+  <w:lsdexception locked="false" priority="30" semihidden="false" unhidewhenused="false" qformat="true" name="Intense Quote" />
+  <w:lsdexception locked="false" priority="66" semihidden="false" unhidewhenused="false" name="Medium List 2 Accent 1" />
+  <w:lsdexception locked="false" priority="67" semihidden="false" unhidewhenused="false" name="Medium Grid 1 Accent 1" />
+  <w:lsdexception locked="false" priority="68" semihidden="false" unhidewhenused="false" name="Medium Grid 2 Accent 1" />
+  <w:lsdexception locked="false" priority="69" semihidden="false" unhidewhenused="false" name="Medium Grid 3 Accent 1" />
+  <w:lsdexception locked="false" priority="70" semihidden="false" unhidewhenused="false" name="Dark List Accent 1" />
+  <w:lsdexception locked="false" priority="71" semihidden="false" unhidewhenused="false" name="Colorful Shading Accent 1" />
+  <w:lsdexception locked="false" priority="72" semihidden="false" unhidewhenused="false" name="Colorful List Accent 1" />
+  <w:lsdexception locked="false" priority="73" semihidden="false" unhidewhenused="false" name="Colorful Grid Accent 1" />
+  <w:lsdexception locked="false" priority="60" semihidden="false" unhidewhenused="false" name="Light Shading Accent 2" />
+  <w:lsdexception locked="false" priority="61" semihidden="false" unhidewhenused="false" name="Light List Accent 2" />
+  <w:lsdexception locked="false" priority="62" semihidden="false" unhidewhenused="false" name="Light Grid Accent 2" />
+  <w:lsdexception locked="false" priority="63" semihidden="false" unhidewhenused="false" name="Medium Shading 1 Accent 2" />
+  <w:lsdexception locked="false" priority="64" semihidden="false" unhidewhenused="false" name="Medium Shading 2 Accent 2" />
+  <w:lsdexception locked="false" priority="65" semihidden="false" unhidewhenused="false" name="Medium List 1 Accent 2" />
+  <w:lsdexception locked="false" priority="66" semihidden="false" unhidewhenused="false" name="Medium List 2 Accent 2" />
+  <w:lsdexception locked="false" priority="67" semihidden="false" unhidewhenused="false" name="Medium Grid 1 Accent 2" />
+  <w:lsdexception locked="false" priority="68" semihidden="false" unhidewhenused="false" name="Medium Grid 2 Accent 2" />
+  <w:lsdexception locked="false" priority="69" semihidden="false" unhidewhenused="false" name="Medium Grid 3 Accent 2" />
+  <w:lsdexception locked="false" priority="70" semihidden="false" unhidewhenused="false" name="Dark List Accent 2" />
+  <w:lsdexception locked="false" priority="71" semihidden="false" unhidewhenused="false" name="Colorful Shading Accent 2" />
+  <w:lsdexception locked="false" priority="72" semihidden="false" unhidewhenused="false" name="Colorful List Accent 2" />
+  <w:lsdexception locked="false" priority="73" semihidden="false" unhidewhenused="false" name="Colorful Grid Accent 2" />
+  <w:lsdexception locked="false" priority="60" semihidden="false" unhidewhenused="false" name="Light Shading Accent 3" />
+  <w:lsdexception locked="false" priority="61" semihidden="false" unhidewhenused="false" name="Light List Accent 3" />
+  <w:lsdexception locked="false" priority="62" semihidden="false" unhidewhenused="false" name="Light Grid Accent 3" />
+  <w:lsdexception locked="false" priority="63" semihidden="false" unhidewhenused="false" name="Medium Shading 1 Accent 3" />
+  <w:lsdexception locked="false" priority="64" semihidden="false" unhidewhenused="false" name="Medium Shading 2 Accent 3" />
+  <w:lsdexception locked="false" priority="65" semihidden="false" unhidewhenused="false" name="Medium List 1 Accent 3" />
+  <w:lsdexception locked="false" priority="66" semihidden="false" unhidewhenused="false" name="Medium List 2 Accent 3" />
+  <w:lsdexception locked="false" priority="67" semihidden="false" unhidewhenused="false" name="Medium Grid 1 Accent 3" />
+  <w:lsdexception locked="false" priority="68" semihidden="false" unhidewhenused="false" name="Medium Grid 2 Accent 3" />
+  <w:lsdexception locked="false" priority="69" semihidden="false" unhidewhenused="false" name="Medium Grid 3 Accent 3" />
+  <w:lsdexception locked="false" priority="70" semihidden="false" unhidewhenused="false" name="Dark List Accent 3" />
+  <w:lsdexception locked="false" priority="71" semihidden="false" unhidewhenused="false" name="Colorful Shading Accent 3" />
+  <w:lsdexception locked="false" priority="72" semihidden="false" unhidewhenused="false" name="Colorful List Accent 3" />
+  <w:lsdexception locked="false" priority="73" semihidden="false" unhidewhenused="false" name="Colorful Grid Accent 3" />
+  <w:lsdexception locked="false" priority="60" semihidden="false" unhidewhenused="false" name="Light Shading Accent 4" />
+  <w:lsdexception locked="false" priority="61" semihidden="false" unhidewhenused="false" name="Light List Accent 4" />
+  <w:lsdexception locked="false" priority="62" semihidden="false" unhidewhenused="false" name="Light Grid Accent 4" />
+  <w:lsdexception locked="false" priority="63" semihidden="false" unhidewhenused="false" name="Medium Shading 1 Accent 4" />
+  <w:lsdexception locked="false" priority="64" semihidden="false" unhidewhenused="false" name="Medium Shading 2 Accent 4" />
+  <w:lsdexception locked="false" priority="65" semihidden="false" unhidewhenused="false" name="Medium List 1 Accent 4" />
+  <w:lsdexception locked="false" priority="66" semihidden="false" unhidewhenused="false" name="Medium List 2 Accent 4" />
+  <w:lsdexception locked="false" priority="67" semihidden="false" unhidewhenused="false" name="Medium Grid 1 Accent 4" />
+  <w:lsdexception locked="false" priority="68" semihidden="false" unhidewhenused="false" name="Medium Grid 2 Accent 4" />
+  <w:lsdexception locked="false" priority="69" semihidden="false" unhidewhenused="false" name="Medium Grid 3 Accent 4" />
+  <w:lsdexception locked="false" priority="70" semihidden="false" unhidewhenused="false" name="Dark List Accent 4" />
+  <w:lsdexception locked="false" priority="71" semihidden="false" unhidewhenused="false" name="Colorful Shading Accent 4" />
+  <w:lsdexception locked="false" priority="72" semihidden="false" unhidewhenused="false" name="Colorful List Accent 4" />
+  <w:lsdexception locked="false" priority="73" semihidden="false" unhidewhenused="false" name="Colorful Grid Accent 4" />
+  <w:lsdexception locked="false" priority="60" semihidden="false" unhidewhenused="false" name="Light Shading Accent 5" />
+  <w:lsdexception locked="false" priority="61" semihidden="false" unhidewhenused="false" name="Light List Accent 5" />
+  <w:lsdexception locked="false" priority="62" semihidden="false" unhidewhenused="false" name="Light Grid Accent 5" />
+  <w:lsdexception locked="false" priority="63" semihidden="false" unhidewhenused="false" name="Medium Shading 1 Accent 5" />
+  <w:lsdexception locked="false" priority="64" semihidden="false" unhidewhenused="false" name="Medium Shading 2 Accent 5" />
+  <w:lsdexception locked="false" priority="65" semihidden="false" unhidewhenused="false" name="Medium List 1 Accent 5" />
+  <w:lsdexception locked="false" priority="66" semihidden="false" unhidewhenused="false" name="Medium List 2 Accent 5" />
+  <w:lsdexception locked="false" priority="67" semihidden="false" unhidewhenused="false" name="Medium Grid 1 Accent 5" />
+  <w:lsdexception locked="false" priority="68" semihidden="false" unhidewhenused="false" name="Medium Grid 2 Accent 5" />
+  <w:lsdexception locked="false" priority="69" semihidden="false" unhidewhenused="false" name="Medium Grid 3 Accent 5" />
+  <w:lsdexception locked="false" priority="70" semihidden="false" unhidewhenused="false" name="Dark List Accent 5" />
+  <w:lsdexception locked="false" priority="71" semihidden="false" unhidewhenused="false" name="Colorful Shading Accent 5" />
+  <w:lsdexception locked="false" priority="72" semihidden="false" unhidewhenused="false" name="Colorful List Accent 5" />
+  <w:lsdexception locked="false" priority="73" semihidden="false" unhidewhenused="false" name="Colorful Grid Accent 5" />
+  <w:lsdexception locked="false" priority="60" semihidden="false" unhidewhenused="false" name="Light Shading Accent 6" />
+  <w:lsdexception locked="false" priority="61" semihidden="false" unhidewhenused="false" name="Light List Accent 6" />
+  <w:lsdexception locked="false" priority="62" semihidden="false" unhidewhenused="false" name="Light Grid Accent 6" />
+  <w:lsdexception locked="false" priority="63" semihidden="false" unhidewhenused="false" name="Medium Shading 1 Accent 6" />
+  <w:lsdexception locked="false" priority="64" semihidden="false" unhidewhenused="false" name="Medium Shading 2 Accent 6" />
+  <w:lsdexception locked="false" priority="65" semihidden="false" unhidewhenused="false" name="Medium List 1 Accent 6" />
+  <w:lsdexception locked="false" priority="66" semihidden="false" unhidewhenused="false" name="Medium List 2 Accent 6" />
+  <w:lsdexception locked="false" priority="67" semihidden="false" unhidewhenused="false" name="Medium Grid 1 Accent 6" />
+  <w:lsdexception locked="false" priority="68" semihidden="false" unhidewhenused="false" name="Medium Grid 2 Accent 6" />
+  <w:lsdexception locked="false" priority="69" semihidden="false" unhidewhenused="false" name="Medium Grid 3 Accent 6" />
+  <w:lsdexception locked="false" priority="70" semihidden="false" unhidewhenused="false" name="Dark List Accent 6" />
+  <w:lsdexception locked="false" priority="71" semihidden="false" unhidewhenused="false" name="Colorful Shading Accent 6" />
+  <w:lsdexception locked="false" priority="72" semihidden="false" unhidewhenused="false" name="Colorful List Accent 6" />
+  <w:lsdexception locked="false" priority="73" semihidden="false" unhidewhenused="false" name="Colorful Grid Accent 6" />
+  <w:lsdexception locked="false" priority="19" semihidden="false" unhidewhenused="false" qformat="true" name="Subtle Emphasis" />
+  <w:lsdexception locked="false" priority="21" semihidden="false" unhidewhenused="false" qformat="true" name="Intense Emphasis" />
+  <w:lsdexception locked="false" priority="31" semihidden="false" unhidewhenused="false" qformat="true" name="Subtle Reference" />
+  <w:lsdexception locked="false" priority="32" semihidden="false" unhidewhenused="false" qformat="true" name="Intense Reference" />
+  <w:lsdexception locked="false" priority="33" semihidden="false" unhidewhenused="false" qformat="true" name="Book Title" />
+  <w:lsdexception locked="false" priority="37" name="Bibliography" />
+  <w:lsdexception locked="false" priority="39" qformat="true" name="TOC Heading" />
+ </w:latentstyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]-->
